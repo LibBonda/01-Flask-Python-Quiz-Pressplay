@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{url_for('static', filename='style.css')}}" rel="stylesheet" />
+    <title>Quiz Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome To the Mother Of all Quizzes</h1>
+        <form action="/quiz" method="dialog">
+            <label for="playing">Are you ready to play?</label>
+            <input type="text" id="playing" name="playing" required>
+            <button type="submit">Start Quiz</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+    <!-- <div class="container">
+        <h1>Welcome To the Mother Of all Quizzes</h1>
+        <button id="start-btn">Start Quiz</button>
+        <div id="quiz-container" class="hide">
+            <div id="question-container">
+                <h2 id="question"></h2>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                </div>
+            </div>
+            <div id="controls">
+                <button id="next-btn" class="hide">Next</button>
+            </div>
+        </div>
+        <div id="result-container" class="hide">
+            <h2 id="result"></h2>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
